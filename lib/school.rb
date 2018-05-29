@@ -22,7 +22,7 @@ class School
   def sort
     sorted_array={}
     roster.each do |grade, students|
-      sorted_array[grade]=students.sorted_array\
+      sorted_array[grade]=students.sorted_array
     end
     sorted_array
   end
